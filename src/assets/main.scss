@@ -24,16 +24,16 @@ body {
 }
 
 .card {
-    max-width: 10rem;
+    max-width: 14.5rem;
     display: grid;
     align-items: center;
-    gap: 1rem;
+    gap: 1em;
     background-color: var(--white);
-    border-radius: 1rem;
+    border-radius: 1em;
 
     &__media {
         img {
-            border-radius: 0.5rem;
+            border-radius: 0.5em;
             width: 100%;
             height: auto;
         }
@@ -41,19 +41,20 @@ body {
 
     &__title {
         color: var(--blue-800);
-        font-size: 0.85rem;
+        font-size: 1.125rem;
         font-weight: var(--fw-bold);
     }
 
     &__content {
         color: var(--grey-400);
-        font-size: 0.6rem;
+        font-size: 0.75rem;
         font-weight: var(--fw-normal);
+        padding: 0 1em;
     }
 } // end card
 
 .attribution {
-    padding-top: 1rem;
+    padding-top: 1em;
     font-size: 11px;
     text-align: center;
 
