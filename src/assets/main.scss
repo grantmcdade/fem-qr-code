@@ -19,6 +19,10 @@ body {
     background-color: var(--grey-200);
 }
 
+.center {
+    margin: 0 auto;
+}
+
 .card {
     max-width: 10rem;
     display: grid;
@@ -28,9 +32,8 @@ body {
     border-radius: 1rem;
 
     &__media {
-        
         img {
-            border-radius: .5rem;
+            border-radius: 0.5rem;
             width: 100%;
             height: auto;
         }
@@ -38,13 +41,23 @@ body {
 
     &__title {
         color: var(--blue-800);
-        font-size: .85rem;
+        font-size: 0.85rem;
         font-weight: var(--fw-bold);
     }
 
     &__content {
         color: var(--grey-400);
-        font-size: .6rem;
+        font-size: 0.6rem;
         font-weight: var(--fw-normal);
+    }
+} // end card
+
+.attribution {
+    padding-top: 1rem;
+    font-size: 11px;
+    text-align: center;
+
+    & a {
+        color: hsl(228, 45%, 44%);
     }
 }
